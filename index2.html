@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+     <style>
+        body{
+            direction: rtl;
+            font-family: Vazirmatn, sans-serif;
+            padding: 10px;
+        }
+        .contact-us{
+            border: 1px solid lightgray;
+        }
+        .contact-us-form{
+            padding: 10px 20px;
+        }
+        .contact-us-form-control{
+            width: calc(50% - 10px);
+        }
+        .contact-us-input{
+            width: 100%;
+            display: block;
+            background-color: lightgray;
+            border: none;
+            outline: none;
+            padding: 8px 12px;
+        }
+        .contact-us-label{
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        .contact-us-btn{
+            background-color: red;
+            color: white;
+            padding: 10px;
+            width: 100px;
+            border: none;
+            outline: none;
+            transition: 0.5s;
+        }
+        .contact-us-btn:hover{
+            background-color: white;
+            color: tomato;
+        }
+        .w-100{
+            width: 100%;
+        }
+        .message{
+            height: 100px;
+            width: 100%;
+            resize: none;
+        }
+     </style>
+</head>
+<body>
+    <div class="contact-us">
+        <form action="" class="contact-us-form">
+            <div style=" justify-content: space-between; margin-bottom: 10px;">
+                <div class="contact-us-form-control">
+                    <label for="نام کامل">نام کامل</label>
+                    <input id="نام کامل" type="text" class="contact-us-input">
+                </div>
+                 <div>
+                <div class="contact-us-form-control">
+                    <label for="شماره تماس">شماره تماس</label>
+                    <input id="شماره تماس" type="text" class="contact-us-input">
+                </div>
+                <div class="mb-2">
+                    <div class="contact-us-form-control w-100">
+                        <label for="عنوان" class="contact-us-label">عنوان</label>
+                        <input id=" عنوان" type="text" class="contact-us-input">
+                    </div>
+                    <div class="mb-2">
+                        <div class="contact-us-form-control w-100">
+                            <label for="پیام" class="cantact-us-label">پیام</label>
+                            <textarea class="message" name="" id=""></textarea>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div>
+            <input type="submit" value="ارسال درخواست" class="contact-us-btn">
+        </div>
+    </div>
+</body>
+</html>
